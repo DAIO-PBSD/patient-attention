@@ -22,7 +22,7 @@ class Enrutador {
 
     fun body (patientId: String, location: String): String {
         return "El paciente con ID: $patientId está" +
-                " en estado crítico y debe ser atendido inmediatamente en la dirección" +
+                " en estado crítico y debe ser atendido inmediatamente en la dirección " +
                 location
     }
 
